@@ -77,7 +77,6 @@ app.get("/", function (req, res) {
         if (!list) {
           console.log("Nothing found");
         } else {
-          console.log(list);
           for (let i = 0; i < list.length; i++) {
             listArray.push(list[i].name);
           }
@@ -117,7 +116,6 @@ app.get("/:customListName", function (req, res) {
         if (!list) {
           console.log("Nothing found");
         } else {
-          console.log(list);
           for (let i = 0; i < list.length; i++) {
             listArray.push(list[i].name);
           }
@@ -183,8 +181,6 @@ app.post("/delete", function (req, res) {
     );
   }
 });
-
-// app.post("/list", function (req, res) {});
 
 app.listen(3000, function () {
   console.log("Server started on port 3000");
