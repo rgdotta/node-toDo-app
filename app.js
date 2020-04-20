@@ -70,6 +70,21 @@ app.get("/", function (req, res) {
       });
     }
   });
+  
+  if (listArray.length === 0) {
+    List.find({}, function (err, list) {
+      if (!err) {
+        if (!list) {
+          console.log("Nothing found");
+        } else {
+          console.log(list);
+          for (let i = 0; i < list.length; i++) {
+            listArray.push(list[i].name);
+          }
+        }
+      }
+    });
+  }
 });
 
 app.get("/:customListName", function (req, res) {
@@ -95,6 +110,21 @@ app.get("/:customListName", function (req, res) {
         });
       }
     }
+    
+    if (listArray.length === 0) {
+    List.find({}, function (err, list) {
+      if (!err) {
+        if (!list) {
+          console.log("Nothing found");
+        } else {
+          console.log(list);
+          for (let i = 0; i < list.length; i++) {
+            listArray.push(list[i].name);
+          }
+        }
+      }
+    });
+  }
   });
 
   List.deleteMany({ name: "Favicon.ico" }, function (err) {
