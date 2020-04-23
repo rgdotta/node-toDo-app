@@ -12,7 +12,7 @@ And browse through the existing lists via dropdown button:
 
 ![](public/images/image3.png)
 
-//////
+///////
 
 The CRUD operations.
 
