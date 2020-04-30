@@ -17,13 +17,13 @@ And browse through the existing lists via dropdown button:
 The CRUD operations.
 
 Create:
-![](public/images/create.png)
+![](public/images/createOk.png)
 
 Read:
-![](public/images/read.png)
+![](public/images/readOk.png)
 
 Update:
-![](public/images/update.png)
+![](public/images/updateOk.png)
 
 Delete:
-![](public/images/delete.png)
+![](public/images/deleteOk.png)
