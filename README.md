@@ -1,6 +1,6 @@
 # To-Do-List-Node-EJS-
 
-Custom To Do List wrote in node.js, using EJS has markup language, and mongoDB with mongoose has database. All of the CRUD operation are used in this project. Initalize it in the terminal with nodemon.
+Custom To Do List wrote in node.js, using EJS has markup language, and mongoDB with mongoose has database. Initalize it in the terminal with nodemon.
 
 ![](public/images/image1.png)
 
@@ -14,16 +14,20 @@ And browse through the existing lists via dropdown button:
 
 ///////
 
-The CRUD operations.
+All of the CRUD methods applied.
 
 Create:
+
 ![](public/images/createOk.png)
 
 Read:
+
 ![](public/images/readOk.png)
 
 Update:
+
 ![](public/images/updateOk.png)
 
 Delete:
+
 ![](public/images/deleteOk.png)
