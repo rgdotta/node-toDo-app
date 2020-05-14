@@ -14,7 +14,7 @@ And browse through the existing lists via dropdown button:
 
 ///////
 
-All of the CRUD methods applied.
+All of the CRUD methods applied:
 
 Create:
 
