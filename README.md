@@ -1,6 +1,40 @@
-# To-Do-List-Node-EJS-
+# NODE TODO APP
 
-Custom To Do List wrote in node.js, using EJS has markup language, and mongoDB with mongoose has database. Initalize it in the terminal with nodemon.
+Todo list app created using Node.js.
+
+## Download
+
+On the designated folder, clone the repository in the terminal with the following code:
+
+```
+$ git clone https://github.com/rgdotta/node-toDo-app.git
+```
+
+### Install
+
+To install the dependencies, on the repository folder, type the following code on the terminal:
+
+```
+$ npm install
+```
+
+After that, start the local server with:
+
+```
+$ npm start
+```
+
+The aplication will start on: https://localhost:3000/
+
+## Technologies:
+
+- ES6+
+- Node.js
+- MongoDB with mongoose
+- EJS
+- lodash
+
+## Screenshots
 
 ![](public/images/image1.png)
 
@@ -12,7 +46,7 @@ And browse through the existing lists via dropdown button:
 
 ![](public/images/image3.png)
 
-///////
+
 
 All of the CRUD methods applied:
 
