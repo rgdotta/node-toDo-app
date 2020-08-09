@@ -45,23 +45,3 @@ You can create your own list (the default is labeled Today):
 And browse through the existing lists via dropdown button:
 
 ![](public/images/image3.png)
-
-
-
-All of the CRUD methods applied:
-
-Create:
-
-![](public/images/createOk.png)
-
-Read:
-
-![](public/images/readOk.png)
-
-Update:
-
-![](public/images/updateOk.png)
-
-Delete:
-
-![](public/images/deleteOk.png)
